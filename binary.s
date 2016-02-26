@@ -101,6 +101,7 @@ search:
     beq         $t7, $t6, exit          # if there's nothing to search, exit
     
 #===============================================================#
+
 splitStep:
 
     move        $s6, $s1                # min is the start address of the heap
